@@ -20,11 +20,11 @@ Clone the git repository to your local machine.
 
 1. Run the following code
    ```sh
-   !sudo apt install -y protobuf-compiler
-   !cd models/research
-   !protoc object_detection/protos/*.proto --python_out=.
-   !cp object_detection/packages/tf2/setup.py .
-   !python -m pip install .
+   sudo apt install -y protobuf-compiler
+   cd models/research
+   protoc object_detection/protos/*.proto --python_out=.
+   cp object_detection/packages/tf2/setup.py .
+   python -m pip install .
    ```
 3. Install OpenCV module
    ```sh
